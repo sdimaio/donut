@@ -29,13 +29,13 @@ in(B),t=c*h*g-f*        e;int x=40+30*D*
 
 Please, compile with 
 
-```
+```bash
 ~$  gcc -o donut donut.c -lm
 ```
 
 and it needs ANSI- or VT100-like emulation) 
 
-```  
+```bash  
                                                                                
                               $$$$$$$$$$$$$$$$$$                               
                           #$$$#####*######*#######$                            
