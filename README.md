@@ -1,9 +1,10 @@
 # donut
 Have a donut
 
-Just a copy of .[#Andy Sloane].(https://www.a1k0n.net/about.html) Donut and Donut Mark II that you can find at [#a1k0n.net](https://www.a1k0n.net/2006/09/15/obfuscated-c-donut.html) - Sep 15, 2006
+Just a copy of [#Andy Sloane](https://www.a1k0n.net/about.html) Donut and Donut Mark II that you can find at [#a1k0n.net](https://www.a1k0n.net/2006/09/15/obfuscated-c-donut.html) - Sep 15, 2006
 
 ...
+
              k;double sin()
          ,cos();main(){float A=
        0,B=0,i,j,z[1760];char b[
@@ -26,13 +27,16 @@ in(B),t=c*h*g-f*        e;int x=40+30*D*
          .,~~;;;========;;;:~-.
              ..,--------,*/
 
+
 ...
 
 
 Please, compile with 
+
 ...
 ~$  gcc -o donut donut.c -lm 
 ...
+
 and it needs ANSI- or VT100-like emulation) 
 
 ...
