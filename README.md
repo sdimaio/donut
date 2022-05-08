@@ -3,9 +3,8 @@ Have a donut
 
 Just a copy of [#Andy Sloane](https://www.a1k0n.net/about.html) Donut and Donut Mark II that you can find at [#a1k0n.net](https://www.a1k0n.net/2006/09/15/obfuscated-c-donut.html) - Sep 15, 2006
 
-...
-
-             k;double sin()
+```C
+              k;double sin()
          ,cos();main(){float A=
        0,B=0,i,j,z[1760];char b[
      1760];printf("\x1b[2J");for(;;
@@ -25,24 +24,18 @@ in(B),t=c*h*g-f*        e;int x=40+30*D*
      0.02;}}/*****####*******!!=;:~
        ~::==!!!**********!!!==::-
          .,~~;;;========;;;:~-.
-             ..,--------,*/
-
-
-...
-
+             ..,--------,*/...
+```
 
 Please, compile with 
 
-...
-~$  gcc -o donut donut.c -lm 
-...
+```
+~$  gcc -o donut donut.c -lm
+```
 
 and it needs ANSI- or VT100-like emulation) 
 
-...
-~$ ./donut 
-
-
+```  
                                                                                
                               $$$$$$$$$$$$$$$$$$                               
                           #$$$#####*######*#######$                            
@@ -62,6 +55,6 @@ and it needs ANSI- or VT100-like emulation)
                       ,-~~:::;;=!!!*######***!==;;::~,                         
                         ,-~:::;;==!!**!!!**!!==;:~-,                           
                           .,--~:;;;=!!!!!==;;:~-,.                             
-                              ..,--~~~~~~~-,..                                 
+                              ..,--~~~~~~~-,..   
+```
 
-...
